@@ -20,7 +20,15 @@
     font-size: 0;
     min-height: 300px;
 }
-
+.containerDescription{
+    border: red solid 1px;
+}
+.containerDescription{
+    color: black;
+    font-size: 1rem;
+    border: red solid 1px;
+    width: 100%;
+}
 .po_item img {
     max-width: 100%;
 }
