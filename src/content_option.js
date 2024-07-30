@@ -2,7 +2,10 @@ import backGroundImage from './assets/images/atari-2600-1548365_1920.jpg'
 import theWorstAssasin from './assets/images/TheWorstAssasin.png'
 import carCircuitAndRocks from './assets/images/CarCircuit.png'
 import thePunkerScape from './assets/images/ThepunkerScape.png'
-import miniSoccer from './assets/images/MiniSoccer fullscreen.png'
+import astroBabaProject from './assets/images/AstroBabaProject.png'
+import getAnimalsDrunk from './assets/images/CoverGetDrunksAnimals.png'
+import whackAFood from './assets/images/WhackAFood.png'
+import dancingChickens from './assets/images/CountingPrototype.png'
 const logotext = "JORGE";
 const meta = {
   title: "Jorge Navarro",
@@ -18,7 +21,7 @@ const introdata = {
     third: "I'm a gameplay developer",
   },
   description:
-    "Hello i'm Unity Developer, i currently work as gameplay programmer",
+    "Hello i'm Unity Developer, i currently work as gameplay programmer. If you want to see my portfolio you can click on the button below.",
   your_img_url: `${backGroundImage}`,
 };
 
@@ -88,48 +91,54 @@ const services = [
 
 const dataportfolio = [
   {
-    img: `${theWorstAssasin}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: `${astroBabaProject}`,
+    title: "AstroBaba Project",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "This game is the result of participation in the GameJam organized by Generation Colombia, where a functional video game was created in 72 hours.",
+    link: "https://stevens1707.itch.io/astrobaba",
   },
   {
     img: `${carCircuitAndRocks}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    title: "Car Circuit and Rocks",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "A single-level game, you can have fun avoiding all the obstacles on the track, collecting coins along the way, try to reach the finish line before time runs out, good luck.",
+    link: "https://jorgnavarrogamedeveloper.itch.io/car-circuit-and-rocks",
   },
   {
-    img: `${thePunkerScape}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: `${theWorstAssasin}`,
+    title: "The worst assassin",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "This game is the result of participation in the GameJam organized by Generation Colombia, where a functional video game was created in 24 hours.",
+    link: "https://sofiarizap.itch.io/the-worst-assassin",
   },
   {
-    img: `${thePunkerScape}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: `${whackAFood}`,
+    title: "Whack a food",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "In this game, you can select the difficulty, try to destroy the food and avoid the skeleton faces to score points.",
+    link: "https://jorgnavarrogamedeveloper.itch.io/whack-a-food",
   },
   {
-    img: `${thePunkerScape}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: `${dancingChickens}`,
+    title: "Dancing chickens",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "This fun game tests concepts like Object Pooling, we must prevent the eggs from falling to the floor to avoid losing.",
+    link: "https://sofiarizap.itch.io/the-worst-assassin",
   },
   {
-    img: `${miniSoccer}`,
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: `${getAnimalsDrunk}`,
+    title: "Get the Animals drunk",
+    role:"Roles: Gameplay developer - Level designer/Programmer ",
+    description: "In this game you prevent the animals from reaching your position, you must feed them with wine bottles to stay in the game.",
+    link: "https://jorgnavarrogamedeveloper.itch.io/get-the-animals-drunk",
   },
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_EMAIL: "jorgluisnavarro@gmail.com",
+  //YOUR_FONE: "(555)123-4567",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "I am very passionate about developing video games, if you are interested in my work, do not hesitate to contact me, I would like to create interactive and immersive experiences with you.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_id",

@@ -22,14 +22,18 @@ export const Portfolio = () => {
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
-                </div>
-                <div className="containerDescription mt-4">
-                <p className="contentDescription">{data.description}</p>
+              <div key={i} className="card po_item" style={{width: "18rem"}}>
+                <img src={data.img} id="imgCard" className="card-img-top" alt="..." />
+                <div className="card-body containerDescription">
+                  <h5 className="card-title">
+                    <a id="linkTitle" target="_blank" rel="noreferrer" href={data.link}>
+                      {data.title}
+                    </a> 
+                    </h5>
+                  <h6 className="card-subtitle mb-2 text-body-secondary">{data.role}</h6>
+                  <p id="descriptionText" className="card-text">
+                    {data.description}
+                  </p>
                 </div>
               </div>
             );
