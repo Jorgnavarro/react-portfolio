@@ -141,9 +141,8 @@ const contactConfig = {
     "I am very passionate about developing video games, if you are interested in my work, do not hesitate to contact me, I would like to create interactive and immersive experiences with you.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_6fy7tb7",
+  YOUR_TEMPLATE_ID: "template_wik2p4q",
 };
 
 const socialprofils = {

@@ -26,6 +26,7 @@ export const ContactUs = () => {
       user_name: formData.name,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
+      email_id: formData.email,
     };
 
     emailjs
@@ -33,7 +34,6 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
       )
       .then(
         (result) => {
